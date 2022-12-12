@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="RestAssuredWithBookerApp.CreateProjectUsingHashMap">
+      <class name="RestAssuredWithBookerApp.CreateUsingPOJO">
         <methods>
-          <include name="CreateUsingHashMap"/>
+          <include name="CreateProjectUsingPOJO"/>
         </methods>
-      </class> <!-- RestAssuredWithBookerApp.CreateProjectUsingHashMap -->
+      </class> <!-- RestAssuredWithBookerApp.CreateUsingPOJO -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

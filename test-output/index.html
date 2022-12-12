@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\sujana\AppData\Local\Temp\testng-eclipse-415166126\testng-customsuite.xml</span>
+                    <span>C:\Users\sujana\AppData\Local\Temp\testng-eclipse--1202944741\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -104,7 +104,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="RestAssuredWithBookerApp.CreateProjectUsingHashMap" class="method navigator-link" hash-for-method="CreateUsingHashMap">CreateUsingHashMap</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="RestAssuredWithBookerApp.CreateUsingPOJO" class="method navigator-link" hash-for-method="CreateProjectUsingPOJO">CreateProjectUsingPOJO</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -122,16 +122,16 @@
           <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">RestAssuredWithBookerApp.CreateProjectUsingHashMap</span>
+              <span class="class-name">RestAssuredWithBookerApp.CreateUsingPOJO</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="CreateUsingHashMap">
-                  </a> <!-- CreateUsingHashMap -->
-                  <span class="method-name">CreateUsingHashMap</span>
+                  <a name="CreateProjectUsingPOJO">
+                  </a> <!-- CreateProjectUsingPOJO -->
+                  <span class="method-name">CreateProjectUsingPOJO</span>
                   <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
-Expected status code &lt;201&gt; but was &lt;404&gt;.
+Expected status code &lt;200&gt; but was &lt;500&gt;.
 
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
@@ -177,7 +177,7 @@ Expected status code &lt;201&gt; but was &lt;404&gt;.
 	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
 	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
 	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
-	at RestAssuredWithBookerApp.CreateProjectUsingHashMap.CreateUsingHashMap(CreateProjectUsingHashMap.java:36)
+	at RestAssuredWithBookerApp.CreateUsingPOJO.CreateProjectUsingPOJO(CreateUsingPOJO.java:22)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -215,7 +215,7 @@ Expected status code &lt;201&gt; but was &lt;404&gt;.
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\sujana\AppData\Local\Temp\testng-eclipse-415166126\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\sujana\AppData\Local\Temp\testng-eclipse--1202944741\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -224,7 +224,7 @@ Expected status code &lt;201&gt; but was &lt;404&gt;.
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;RestAssuredWithBookerApp.CreateProjectUsingHashMap&quot;/&gt;
+      &lt;class name=&quot;RestAssuredWithBookerApp.CreateUsingPOJO&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -266,14 +266,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'CreateUsingHashMap')
-data.setCell(0, 2, 'RestAssuredWithBookerApp.CreateProjectUsingHashMap')
-data.setCell(0, 3, 4302);
+data.setCell(0, 1, 'CreateProjectUsingPOJO')
+data.setCell(0, 2, 'RestAssuredWithBookerApp.CreateUsingPOJO')
+data.setCell(0, 3, 3220);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -299,11 +299,11 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">RestAssuredWithBookerApp.CreateProjectUsingHashMap</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">RestAssuredWithBookerApp.CreateUsingPOJO</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">CreateUsingHashMap</span>
+                <span class="method-name">CreateProjectUsingPOJO</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
