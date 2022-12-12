@@ -14,6 +14,7 @@ public class CreateProjectUsingHashMap {
 	@Test
 	public void CreateUsingHashMap()
 	{
+		
 		HashMap map1=new HashMap();
 		map1.put("checkin", "2013-02-23");
 		map1.put("checkout", "2014-10-23");
@@ -27,16 +28,14 @@ public class CreateProjectUsingHashMap {
 		map.put("additionalneeds", "snacks");
 		
 		given()
-		.body(ContentType.JSON)
+		.body(map)
+		.contentType(ContentType.JSON)
 		
 		.when()
-		.post("https://restful-booker.herokuapp.com/booking/addProject")
+		.post("https://restful-booker.herokuapp.com/booking")
 		
 		.then()
-		.statusCode(201)
-		.contentType(ContentType.JSON)
-		.time(Matchers.lessThan(2000L),TimeUnit.MILLISECONDS)
-		.statusLine("HTTP/1.1 201 ")
+		.assertThat().statusCode(200)
 		.log().all();
 	}
 
