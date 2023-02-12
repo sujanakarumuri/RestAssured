@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="RestAssuredWithBookerApp.CreateUsingPOJO">
+      <class name="Assignments.RepublicOfIndia">
         <methods>
-          <include name="CreateProjectUsingPOJO"/>
+          <include name="republic"/>
         </methods>
-      </class> <!-- RestAssuredWithBookerApp.CreateUsingPOJO -->
+      </class> <!-- Assignments.RepublicOfIndia -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
